@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Manhours</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="script.js" defer></script>
+</head>
+<body class="bg-neutral-800 text-neutral-100">
+	<div class="grid md:grid-cols-3 p-8 gap-8">
+		<div>
+			<span class="text-xl font-bold">Playtime Lengths</span>
+			<div id="timeReq" class="grid grid-cols-3 gap-2 pt-4">
+				<!-- example -->
+				<!-- <div>Non</div><input class="text-neutral-900 px-1 col-span-2" type="number" min="1" max="60" value="15"></input> -->
+			</div>
+		</div>
+
+		<div>
+			<span class="text-xl font-bold col-span-3">Pup Counts</span>
+			<div id="pupCount" class="grid grid-cols-3 gap-2 pt-4"></div>
+		</div>
+
+		<div>
+			<span class="text-xl font-bold col-span-3">Totals</span>
+			<div id="output" class="text-lg pt-2 leading-5"></div>
+		</div>
+	</div>
+</body>
+</html>
